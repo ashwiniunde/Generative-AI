@@ -1,0 +1,23 @@
+1.create 1 folder in the c drive 
+
+2.create .env file with GOOGLE_API_KEY -->personal info .env keep it safe(security purpose)
+
+3.create requirements.txt file--to keep all required libraries
+ 
+
+4.create app.py file
+in terminal give command --->>conda create -p venv python==3.10
+environment will be created
+
+5.in requorements file command--->>
+conda active venv/
+pip install -r requiremets.txt
+
+6.In app.py file write your code
+ To run file give command -->>streamlit run app.py
+
+**link that are use to open your app
+ Local URL:  http://localhost:8505
+
+**For another user to use application
+  Network URL:  http://192.168.155.220:8505
